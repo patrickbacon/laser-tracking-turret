@@ -43,8 +43,8 @@ A Raspberry Pi 5 pan-tilt turret that detects people in real time, locates facia
 6. Angles are sent to the PCA9685, which drives the pan and tilt servos.
 
 ## Repository Structure
-- `turret/` – core modules (geometry, tracking, safety, aiming, main loop)
-- `tools/` – calibration, recording, replay, and servo test utilities
+- `turret/` – core modules (camera geometry, Kalman tracking, safety gate)
+- `tools/` – live tracking, recording, replay, servo test, and sound utilities
 - `config.yaml` – camera calibration and tuning parameters
 - `docs/` – photos and demo media
 
