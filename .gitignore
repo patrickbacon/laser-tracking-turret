@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.onnx
+*.pt
+*_ncnn_model/
+models/
+sessions/
+sounds/
+*.mp4
+*.avi
