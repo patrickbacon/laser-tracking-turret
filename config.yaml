@@ -1,0 +1,38 @@
+camera:
+  width: 1332
+  height: 990
+  fps: 40
+  intrinsics:
+    fx: 1963.76
+    fy: 1965.32
+    cx: 694.79
+    cy: 594.67
+    dist: [-0.436762, 0.289851, -0.008656, -0.004066, -1.145943]
+  max_exposure_us: 5000
+
+tracking:
+  process_noise_pos: 0.05
+  process_noise_vel: 2.0
+  measurement_noise: 0.30
+  max_coast_s: 0.75
+  gate_deg: 6.0
+  predict_ahead_ms: 300
+  confirm_frames: 5
+
+aim:
+  boresight_az_deg: 0.0
+  boresight_el_deg: 0.0
+  deadband_deg: 1.0
+  az_min_deg: -80.0
+  az_max_deg: 80.0
+  el_min_deg: -30.0
+  el_max_deg: 30.0
+  max_rate_deg_s: 120.0
+
+safety:
+  chin_margin_deg: 2.0
+  fallback_el_offset_deg: 8.0
+  min_range_m: 1.5
+  person_height_assumed_m: 1.7
+  min_track_age_frames: 5
+  max_track_staleness_s: 0.25
